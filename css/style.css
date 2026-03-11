@@ -1,14 +1,43 @@
 body {
-
     background-color: rgba(161, 173, 255);
-
+    
 }
-
 #nube1 {
-    position:absolute;
-    top:300px;
-    left:300px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
-.Escenario_Mario {
-    position:relative;
+#nube2 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
+#nube3 {
+    position: absolute;
+    left: 200px;
+    top: 50%;
+}
+#cartel {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+#montana1 {
+    position: absolute;
+    left: 20px;
+    bottom: -50px;
+    transform: translate(-50%, -50%);
+}   
+#montana2 {
+    position: absolute;
+    left: 70%;
+    bottom: -100px;
+    transform: translate(-50%, -50%);
+}
+#suelo {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-image: url('../img/suelo.png');
+}   
