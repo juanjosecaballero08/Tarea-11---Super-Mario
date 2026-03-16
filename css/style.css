@@ -1,5 +1,6 @@
 body {
     background-color: rgba(161, 173, 255);
+    display: block;
     
 }
 #nube1 {
@@ -31,13 +32,51 @@ body {
 }   
 #montana2 {
     position: absolute;
-    left: 70%;
+    left: 80%;
     bottom: -100px;
     transform: translate(-50%, -50%);
 }
 #suelo {
+    width: 100%;
+    height: 80px;
     position: absolute;
+    bottom: -20px;
     left: 0px;
-    bottom: 0px;
     background-image: url('../img/suelo.png');
 }   
+#Mario {
+    position: absolute;
+    left: 35%;
+    bottom: 60px;
+    height: 10%;
+}
+#planta {
+    position: absolute;
+    left: 55%;
+    bottom: 60px;
+    height: 10%;
+}
+#caja {
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    height: 10%;
+}
+#ladrillo1 {
+    position: absolute;
+    right: 150px;
+    bottom: 40%;
+    height: 10%;
+}
+#ladrillo2 {
+    position: absolute;
+    right: 30px;
+    bottom: 40%;
+    height: 10%;
+}
+#caja2 {
+    position: absolute;
+    right: 90px;
+    bottom: 40%;
+    height: 10%;
+}
